@@ -27,6 +27,11 @@ const Navbar = () => {
               Web App Builder
             </Button>
           </RouterLink>
+          <RouterLink to="/settings">
+            <Button as={Link} colorScheme="teal" variant="ghost">
+              Settings
+            </Button>
+          </RouterLink>
         </Flex>
       </Flex>
     </Box>
