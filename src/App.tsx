@@ -4,6 +4,7 @@ import Index from "./pages/Index";
 import MultiLLMPromptCreation from "./pages/MultiLLMPromptCreation";
 import AgentPromptGenerator from "./pages/AgentPromptGenerator";
 import WebAppBuilder from "./pages/WebAppBuilder";
+import Settings from "./pages/Settings";
 import Navbar from "./components/Navbar";
 
 const App: React.FC = () => {
@@ -15,6 +16,7 @@ const App: React.FC = () => {
         <Route path="/multi-llm-prompt-creation" element={<MultiLLMPromptCreation />} />
         <Route path="/agent-prompt-generator" element={<AgentPromptGenerator />} />
         <Route path="/web-app-builder" element={<WebAppBuilder />} />
+        <Route path="/settings" element={<Settings />} />
       </Routes>
     </Router>
   );
