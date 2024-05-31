@@ -1,15 +1,12 @@
-// Complete the Index page component here
-// Use chakra-ui
-import { Button } from "@chakra-ui/react"; // example
-import { FaPlus } from "react-icons/fa"; // example - use react-icons/fa for icons
+import { Box, Heading, Text } from "@chakra-ui/react";
 
 const Index = () => {
-  // TODO: Create the website here!
   return (
-    <Button>
-      Hello world! <FaPlus />
-    </Button>
-  ); // example
+    <Box p={4}>
+      <Heading as="h1" mb={4}>Welcome to PromptMaster</Heading>
+      <Text fontSize="lg">Your ultimate tool for creating, managing, and optimizing prompts for various large language models.</Text>
+    </Box>
+  );
 };
 
 export default Index;
